@@ -1,0 +1,115 @@
+/*reset*/
+
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+
+
+div{display: flex;flex-wrap: wrap-reverse;}
+
+html{scroll-behavior: smooth;}
+/*body*/
+
+body{background-color:#2B2B2B;}
+*.imglogo{
+margin: 20px;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    justify-items: center;
+}
+
+/*titulos de htmls*/
+
+.titulodehoja{
+    display: flex  ;
+    justify-content: center;
+    justify-items: center;
+    margin: 20px; ;
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    letter-spacing: 5PX;
+    color:#E6E6DD ;
+}
+
+/* botones*/
+
+header nav ul{
+
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    color: rgb(245, 9, 9);
+     text-decoration: overline;
+
+    }
+     .boton{background-color: rgb(230, 236, 236);
+        font-weight: 700;
+   margin: 10px 30px; }
+
+   .boton:hover{
+    color: chartreuse;
+   }
+
+      /*footer */
+
+footer{ display: flex;
+     justify-content: center;
+      justify-items: center;
+        margin: 50px;
+         background-color: rgb(218, 23, 130);
+        font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+font-style: oblique;}
+    
+
+    /*imagen del profesor*/
+.img-profesor{display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+       
+
+
+/*lorem*/
+
+   .parrafos { color: #E6E6DD;;
+font-style: oblique;
+border-left: 30px}
+
+
+/*imagenes de imagenes*/
+
+   .parrafos{ display: flex;
+     display: grid;
+    justify-content: center; 
+
+
+  
+
+}
+
+.column{
+    box-sizing: border-box;
+;}
+
+/*adaptacion de descargas a celular*/
+
+.conteiner{width: 75vw;
+max-width: 1000px;
+min-width: auto;
+padding: 10px 30px}
+   
+    
+
+ 
+    
+    
